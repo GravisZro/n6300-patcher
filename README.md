@@ -1,6 +1,6 @@
 # 8K Boot Patcher
 
-This is a Docker image to patch the boot partitions of Nokia 8000 or 6300 4G (codenames - Sparkler and Leo). This patch disables basic security checks, updates the ADB daemon to the permanently rooted one and switches SELinux to permissive mode.
+This is a Docker image to patch the boot partitions of Nokia 8000 or 6300 4G (codenames - Sparkler and Leo) and also on Nokia 2720 Flip and Nokia 800 Tough with locked down firmware (starting from 30.00.17.05). This patch disables basic security checks, updates the ADB daemon to the permanently rooted one and switches SELinux to permissive mode.
 
 ## Building
 
