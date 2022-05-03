@@ -10,6 +10,8 @@ cd initrd
 cat ../initrd.img | gunzip | cpio -vid
 # initrd root patch process start
 cp /home/8k/adbd ./sbin/
+cp /home/8k/slua ./sbin/
+cp /home/8k/sluac ./sbin/
 sed -i 's/ro\.secure.*/ro.secure=0/' ./default.prop
 sed -i 's/ro\.debuggable.*/ro.debuggable=1/' ./default.prop
 sed -i 's/.*perf_harden.*/security.perf_harden=0/' ./default.prop
