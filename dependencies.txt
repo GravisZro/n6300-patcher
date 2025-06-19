@@ -1,0 +1,5 @@
+python3-pip
+unzip
+abootimg
+curl
+cpio
